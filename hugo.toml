@@ -1,0 +1,51 @@
+baseURL = 'https://example.org/'
+homeURL = 'https://example.org/'
+blogURL = 'https://blog.example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+description = 'A minimal website/blog theme for developers. It is a simple and clean theme for developers who want to showcase their work and write about their experiences.'
+  
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'About me'
+pageRef = '/aboutme'
+weight = 20
+
+[[menus.main]]
+name = 'Contact'
+pageRef = '/contact'
+weight = 30
+
+[[menus.main]]
+name = 'Blog'
+pageRef = 'https://blog.example.org/'
+weight = 40
+
+[social]
+  [twitter]
+    username = 'twitter'
+    icon = 'fa fa-twitter'
+  [github]
+    username = 'github'
+    icon = 'fa fa-github'
+  [linkedin]
+    username = 'linkedin'
+    icon = 'fa fa-linkedin'
+  [mastodon]
+    username = 'mastodon'
+    instance = 'mastodon.social'
+    visible = false
+    icon = 'fa fa-mastodon'
+
+[analytics]
+  google = "UA-123456789-1"
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
