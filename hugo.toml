@@ -22,7 +22,7 @@ pageRef = '/contact'
 weight = 30
 
 [[menus.main]]
-name = 'Blog'
+name = 'Articles'
 pageRef = 'https://blog.example.org/'
 weight = 40
 
