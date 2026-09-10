@@ -10,7 +10,7 @@
   "author": "Leonardo Benicio",
   "license": "GPLv3",
   "devDependencies": {
-    "autoprefixer": "^10.5.4",
+    "autoprefixer": "^10.5.5",
     "postcss": "^8.5.28",
     "postcss-cli": "^11.0.1",
     "postcss-import": "^17.0.0",
